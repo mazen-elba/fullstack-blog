@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 
 // Import npm packages
 const express = require("express");
