@@ -36,7 +36,7 @@ class App extends React.Component {
 
   // Save Posts
   submit = (event) => {
-    event.preventDefault(); // stops browser from refreshing
+    // event.preventDefault(); // stops browser from refreshing
 
     const payload = {
       title: this.state.title,

@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 // Import npm packages
 const express = require("express");
 const morgan = require("morgan");
