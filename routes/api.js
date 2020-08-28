@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
       res.json(data);
     })
     .catch((error) => {
-      console.log("Error: ", error);
+      console.log("Error: ", egfdsrror);
     });
 });
 

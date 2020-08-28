@@ -11,9 +11,8 @@ const PORT = process.env.PORT || 8080;
 
 const routes = require("./routes/api");
 
-// "mongodb://localhost/mern2"
 // Heruko Step 2: Connect Backend Database (Virtual URI or Local Host)
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mern2", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
